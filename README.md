@@ -1,6 +1,6 @@
 # UCL PhD thesis LaTeX template
 
-[![Open in Overleaf](https://img.shields.io/badge/LaTeX-open%20in%20Overleaf-47A141?logo=overleaf&logoColor=white)](https://www.overleaf.com/docs?snip_uri=https://github.com/YuxuanTang2002/ucl-phd-thesis-template/archive/refs/heads/main.zip&main_document=main.tex)
+[![Open in Overleaf](https://img.shields.io/badge/LaTeX-open%20in%20Overleaf-47A141?logo=overleaf&logoColor=white)](https://www.overleaf.com/docs?snip_uri=https://github.com/YuxuanTang2002/ucl-phd-thesis-template/archive/refs/heads/main.zip&main_document=main.tex&engine=lualatex)
 [![License](https://img.shields.io/github/license/YuxuanTang2002/ucl-phd-thesis-template?label=License)](https://github.com/YuxuanTang2002/ucl-phd-thesis-template/blob/main/LICENSE)
 
 An unofficial LaTeX template for PhD theses at University College London (UCL), created by a PhD student in the Department of Chemistry.
