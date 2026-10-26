@@ -4,6 +4,8 @@ An unofficial LaTeX template for PhD theses at University College London (UCL), 
 
 ## Preview
 
+Click on either image below to view the full PDF.
+
 <p align="center">
   <a href="preview/thesis_template.pdf">
     <img src="preview/cover.png" width="45%" alt="Thesis cover">
