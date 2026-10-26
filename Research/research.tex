@@ -1,0 +1,46 @@
+\chapter{Research}
+
+\section{Introduction}
+
+Reference can be cited using \cite{Sl2018}. \Gls{dft} is used here to demonstrate acronym formatting.
+
+\section{Methods}
+
+Equations can be referenced using \equatref{eq:example}.
+
+An example equation is given by
+\begin{equation}
+    E = mc^2,
+    \label{eq:example}
+\end{equation}
+where \gls{sym:E} is energy, \(m\) is mass, and \(c\) is
+the speed of light.
+
+\section{Results and discussion}
+
+Figures can be referenced using \figref{fig:example}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.48\textwidth]{example-image}
+    \caption{Example Figure.}
+    \label{fig:example}
+\end{figure}
+
+Tables can be referenced using \tabref{tab:example}.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Example table.}
+    \label{tab:example}
+    \begin{tabular}{lcc}
+        \toprule
+        Parameter & Value & Unit \\
+        \midrule
+        A & 1.0 & eV \\
+        B & 2.0 & \AA \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{Summary}

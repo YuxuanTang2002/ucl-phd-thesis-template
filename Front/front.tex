@@ -1,0 +1,88 @@
+\renewcommand{\contentsname}{Table of contents}
+\renewcommand{\listfigurename}{List of figures}
+\renewcommand{\listtablename}{List of tables}
+
+% Title page
+\newgeometry{top=2cm, bottom=2cm, left=4cm, right=4cm}
+
+\begin{titlepage}
+    \centering
+    \includegraphics[width=9cm]{Front/logo.png}
+    \rule{\linewidth}{0.5mm}\\
+    {\setstretch{1.1}\huge\bfseries Thesis title\par}
+    \vspace{0.15cm}
+    \rule{\linewidth}{0.5mm}\\[2cm]
+    \setstretch{2}
+    {\LARGE\textbf{Author name}}\\
+    {\LARGE Primary supervisor: Supervisor name}\\
+    {\LARGE Secondary supervisor: Supervisor name}\\[1.5cm]
+    {\Large Department of Chemistry}\\
+    {\Large University College London}\\[1.5cm]
+    {\Large This thesis is submitted for the degree of}\\
+    {\Large\textit{Doctor of Philosophy}}\\[1.5cm]
+    {\Large Submission date: Day Month Year}
+\end{titlepage}    
+
+\restoregeometry
+
+% Declaration
+\cleardoublepage
+\chapter*{Declaration}
+
+I, Author name, confirm that the work presented in this thesis is my own. Where information has been derived from other sources, I confirm that this has been indicated in the thesis.
+\vspace{1cm}
+\begin{flushright}
+    Author name\\
+    London, United Kingdom\\
+    Day Month Year
+\end{flushright}
+
+% Abstract
+\cleardoublepage
+\chapter*{Abstract}
+
+Insert your abstract here (maximum 300 words).
+
+% Impact statement
+\cleardoublepage
+\chapter*{Impact statement}
+
+Insert your impact statement here (maximum 500 words).
+
+% Publications
+\cleardoublepage
+\chapter*{Publications}
+
+List relevant publications here, if applicable.
+
+% Acknowledgements
+\cleardoublepage
+\chapter*{Acknowledgements}
+
+Insert your acknowledgements here.
+
+% Table of contents
+\cleardoublepage
+\tableofcontents
+
+% List of figures
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of figures}
+\listoffigures
+
+% List of tables
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of tables}
+\listoftables
+
+% Nomenclature
+\cleardoublepage
+\phantomsection
+\chapter*{Nomenclature}
+\addcontentsline{toc}{chapter}{Nomenclature}
+\renewcommand{\glossarysection}[2][]{\section*{#2}}
+\printnoidxglossary[type=symbols, title=Symbols]
+\printnoidxglossary[type=\acronymtype, title=Acronyms]
+\glsresetall
