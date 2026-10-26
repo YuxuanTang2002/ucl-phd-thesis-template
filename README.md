@@ -9,6 +9,6 @@ An unofficial LaTeX template for PhD theses at University College London (UCL), 
     <img src="preview/cover.png" width="45%" alt="Thesis cover">
   </a>
   <a href="preview/thesis_template.pdf">
-    <img src="preview/contents.png" width="45" alt="Thesis contents">
+    <img src="preview/contents.png" width="45%" alt="Thesis contents">
   </a>
 </p>
